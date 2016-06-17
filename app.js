@@ -8,7 +8,7 @@ dotenv.config();
 
 // initialize express, the template directory, and form parsing
 const app = express();
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/views'));
 app.use(parser.urlencoded({ extended: false }));
 
 // initialize nexmo
