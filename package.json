@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon app.js --exec babel-node app.js --presets es2015"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "nexmo <developer@nexmo.com>",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
     "dotenv": "^2.0.0",
