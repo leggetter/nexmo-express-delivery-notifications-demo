@@ -51,7 +51,7 @@ app.get('/response', (request, response) => {
   const selection = parseInt(request.query.text) - 1;
   const day = options[selection];
 
-  let message = "Please select from on of the valid options only.";
+  let message = "Please select from one of the valid options only.";
 
   if (day) {
     message = `Thank you! Your delivery has been rescheduled for ${day}`;
