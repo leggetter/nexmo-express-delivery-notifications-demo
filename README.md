@@ -23,7 +23,7 @@ First off ensure you have Node installed.
 
 The [delivery-notifications](../../tree/delivery-notifications) branch is the end point of our tutorial, taking the number submitted and sending a notification to the user. Additionally it listens to incoming SMS messages to confirm a user's choice.
 
-The differences between these two branches can be seen [here](../../compare/number-form...delivery-notifications) and in our in-dept tutorial.
+The differences between these two branches can be seen [here](../../compare/delivery-notifications...number-form) and in our in-dept tutorial.
 
 ### Usage
 
