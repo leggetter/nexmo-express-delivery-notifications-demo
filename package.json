@@ -1,0 +1,21 @@
+{
+  "name": "nexmo-express-delivery-notifications",
+  "version": "1.0.0",
+  "description": "A demo on how to combine ExpressJS and Nexmo to power delivery notifications",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node app.js --presets es2015"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nexmo": "^1.0.0-beta-4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "nodemon": "^1.9.2"
+  },
+  "repository": "https://github.com/nexmo-community/nexmo-express-delivery-notifications"
+}
